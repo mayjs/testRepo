@@ -24,7 +24,7 @@ public class GamePanel extends JPanel{
 			int tileHeight = this.getHeight()/state[0].length;
 			for(int y = 0; y < state[x].length; y++){
 				if(state[x][y]){
-					g.drawRect(x*tileWidth,y*tileHeight,tileWidth,tileHeight);
+					g.fillRect(x*tileWidth,y*tileHeight,tileWidth,tileHeight);
 				}
 			}
 		}
